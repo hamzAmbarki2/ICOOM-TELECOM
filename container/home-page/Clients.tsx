@@ -67,7 +67,7 @@ export default function Clients() {
 						className={`w-full flex justify-between padding-x  sm:flex-col xm:flex-col`}>
 						<div className="w-[20%] sm:w-auto xm:w-auto" />
 						<div className="w-[30%] sm:w-auto xm:w-auto sm:flex xm:flex flex-wrap gap-x-[5px] sm:pt-[10px] xm:pt-[10px]">
-							{item.links.map((link) => (
+							{item.links.map((link, idx) => (
 								<AnimatePresence key={link.id}>
 									{activeAccordion === item.id && (
 										<motion.div
