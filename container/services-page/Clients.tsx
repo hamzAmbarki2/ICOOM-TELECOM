@@ -69,7 +69,7 @@ export default function Clients() {
 						<div className="w-[20%] sm:w-auto xm:w-auto" />
 						<div className="w-[30%] sm:w-auto xm:w-auto sm:flex xm:flex flex-wrap gap-x-[5px] sm:pt-[10px] xm:pt-[10px]">
 							{item.links.map((link, idx) => (
-								<AnimatePresence key={link.id}>
+								<AnimatePresence key={`${item.id}-${link.id}-${idx}`}>
 									{activeAccordion === item.id && (
 										<motion.div
 											initial={{ opacity: 0, height: 0 }}
