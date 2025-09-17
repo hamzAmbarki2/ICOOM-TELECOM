@@ -44,7 +44,7 @@ const categories: Category[] = [
 
 export default function SecondaryHeader() {
   return (
-    <header className="w-full bg-white/70 backdrop-blur-md border-b border-gray-200/70 py-2 relative z-30">
+    <header className="w-full bg-white/70 backdrop-blur-md border-b border-gray-200/70 py-2 relative z-40 mt-[8vh]">
       <div className="w-full padding-x">
         <nav className="flex items-center gap-8">
           {categories.map((cat) => (
