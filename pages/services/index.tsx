@@ -21,6 +21,7 @@ export default function Services() {
 	return (
 		<>
 			<Curve backgroundColor={"#f1f1f1"}>
+				<SecondaryHeader />
 				<Heroservices />
 				
 				<Process />
