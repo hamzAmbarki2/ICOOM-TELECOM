@@ -11,7 +11,7 @@ export default function Capibilyties() {
 	const [activeImage, setActiveImage] = useState(null);
 	
 	return (
-		<div className="w-full bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 padding-y rounded-t-[20px] shadow-2xl relative overflow-hidden">
+		<div className="w-full bg-primary padding-y rounded-t-[20px] shadow-2xl relative overflow-hidden">
 			{/* 3D Background Elements */}
 			<div className="absolute inset-0 bg-blue-950/20 z-0"></div>
 			<div className="absolute top-0 left-0 w-full h-12 bg-gradient-to-b from-blue-800 to-transparent z-10"></div>
