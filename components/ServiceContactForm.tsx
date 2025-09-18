@@ -198,7 +198,7 @@ export default function ServiceContactForm() {
           </div>
 
           <div>
-            <label htmlFor="comments" className="block text-sm text-gray-700">Commentaires</label>
+            <label htmlFor="comments" className="block text-sm text-gray-700">W commentaires</label>
             <textarea
               id="comments"
               name="comments"
