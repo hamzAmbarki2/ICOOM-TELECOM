@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Link from "next/link";
 import { LinkHover, TextMask } from "@/animation";
 import { footerItems, footernavbarItems } from "@/constants";
 
