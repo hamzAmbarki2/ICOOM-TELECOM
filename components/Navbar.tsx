@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Link from "next/link";
 import { useState } from "react";
 import { navVariants } from "@/motion";
 import { TextHover } from "@/animation";
