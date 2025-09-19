@@ -13,7 +13,7 @@ export default function PartnersSwiper() {
     "/Logos/Alliancedesbuissness.png",
     "/Logos/logo-les-tricolores.png",
     "/Logos/axydislogo.png",
-    "/partners/logo6.png",
+    "/Logos/sfr.png",
   ];
 
   return (
